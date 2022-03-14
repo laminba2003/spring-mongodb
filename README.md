@@ -1,1 +1,1 @@
-Spring MongoDB Reactive
+Spring MongoDB
