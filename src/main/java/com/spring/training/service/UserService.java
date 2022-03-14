@@ -1,7 +1,7 @@
-package com.spring.training.reactive.service;
+package com.spring.training.service;
 
-import com.spring.training.reactive.model.User;
-import com.spring.training.reactive.repository.UserRepository;
+import com.spring.training.model.User;
+import com.spring.training.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.List;

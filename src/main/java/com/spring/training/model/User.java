@@ -1,4 +1,4 @@
-package com.spring.training.reactive.model;
+package com.spring.training.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

@@ -1,7 +1,7 @@
-package com.spring.training.reactive.controller;
+package com.spring.training.controller;
 
-import com.spring.training.reactive.model.User;
-import com.spring.training.reactive.service.UserService;
+import com.spring.training.model.User;
+import com.spring.training.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

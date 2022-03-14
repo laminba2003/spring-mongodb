@@ -1,6 +1,6 @@
-package com.spring.training.reactive.repository;
+package com.spring.training.repository;
 
-import com.spring.training.reactive.model.User;
+import com.spring.training.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
