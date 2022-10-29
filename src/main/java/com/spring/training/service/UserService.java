@@ -34,7 +34,7 @@ public class UserService {
     }
 
     public void deleteUser(String id) {
-        repository.findById(id).ifPresent(user -> repository.delete(user));
+        repository.findById(id).ifPresent(repository::delete);
     }
 
 }
