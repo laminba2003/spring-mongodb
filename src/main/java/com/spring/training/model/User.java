@@ -3,18 +3,23 @@ package com.spring.training.model;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
+
+import javax.validation.constraints.NotBlank;
+import java.io.Serializable;
 
 @Document(collection = "users")
 @Data
-public class User {
+public class User implements Serializable {
 
     @Id
     private String id;
+    @NotBlank
     private String firstName;
+    @NotBlank
     private String lastName;
-    @Field(value = "username")
+    @NotBlank
     private String userName;
+    @NotBlank
     private String password;
 
 }
