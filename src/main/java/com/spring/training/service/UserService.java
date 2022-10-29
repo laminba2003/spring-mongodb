@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 public class UserService {
 
-    private final UserRepository repository;
+    final UserRepository repository;
 
     public List<User> getUsers() {
         return repository.findAll();

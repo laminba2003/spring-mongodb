@@ -12,14 +12,14 @@ import java.io.Serializable;
 public class User implements Serializable {
 
     @Id
-    private String id;
+    String id;
     @NotBlank
-    private String firstName;
+    String firstName;
     @NotBlank
-    private String lastName;
+    String lastName;
     @NotBlank
-    private String userName;
+    String userName;
     @NotBlank
-    private String password;
+    String password;
 
 }

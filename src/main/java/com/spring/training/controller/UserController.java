@@ -14,7 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 public class UserController {
 
-    private final UserService service;
+    final UserService service;
 
     @GetMapping("{id}")
     public User getUser(@PathVariable("id") String id) {
